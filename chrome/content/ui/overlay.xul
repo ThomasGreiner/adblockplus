@@ -68,11 +68,10 @@
       </menupopup>
     </menu>
 
-    <hbox class="abp-contributebutton" id="abp-status-contributebutton" pack="center" align="center">
+    <hbox class="abp-updatebutton" id="abp-status-updatebutton" pack="center" align="center">
       <!-- noautoclose attribute tells Australis menu that it shouldn't close when
            these are clicked, see https://bugzilla.mozilla.org/show_bug.cgi?id=940693 -->
-      <button class="abp-contributebutton-btn" label="&contribute.label;" command="abp-command-contribute" flex="1" noautoclose="true"/>
-      <toolbarbutton class="abp-contributebutton-close" command="abp-command-contribute-hide" noautoclose="true"/>
+      <button class="abp-updatebutton-btn" label="&update.label;" command="abp-command-update" flex="1" noautoclose="true"/>
     </hbox>
   </menupopup>
 
@@ -92,8 +91,7 @@
     <command id="abp-command-toggleshowintoolbar"/>
     <command id="abp-command-toggleshowinstatusbar"/>
     <command id="abp-command-enable" oncommand="//"/>
-    <command id="abp-command-contribute"/>
-    <command id="abp-command-contribute-hide"/>
+    <command id="abp-command-update"/>
     <command id="abp-command-toggleshownotifications"/>
   </commandset>
 

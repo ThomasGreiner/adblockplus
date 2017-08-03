@@ -24,7 +24,7 @@
 <!ENTITY whitelist.page.label   "Disable on this page only">
 <!ENTITY disable.label          "Disable everywhere">
 <!ENTITY options.label          "&amp;Options">
-<!ENTITY contribute.label       "Contribute to Adblock Plus">
+<!ENTITY update.label           "Update Adblock Plus">
 
 <!ENTITY showintoolbar.label        "Show in tool&amp;bar">
 <!ENTITY showinstatusbar.label      "&amp;Show in status bar">
